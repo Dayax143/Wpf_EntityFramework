@@ -9,7 +9,7 @@ namespace WpfEntityFramework
 {
     public class MyContext : DbContext
     {
-        string ConnectionString = "Server=.; Database=testFeature; user id=sa; password=123; trustservercertificate=true";
+        string ConnectionString = Properties.Settings.Default.SqlConnection;
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             optionsBuilder.UseSqlServer(ConnectionString);

@@ -1,0 +1,12 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="WpfEntityFramework.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="SqlConnection" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Server=.; Database=testFeature; user id=sa; password=123; trustservercertificate=true</Value>
+    </Setting>
+    <Setting Name="user_audit" Type="System.String" Scope="User">
+      <Value Profile="(Default)">(Default)</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

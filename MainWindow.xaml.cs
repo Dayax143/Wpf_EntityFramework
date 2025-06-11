@@ -1,4 +1,6 @@
-﻿using System.Text;
+﻿using Microsoft.Data.SqlClient;
+using System.Text;
+using System.Text.Encodings.Web;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
@@ -21,6 +23,13 @@ namespace WpfEntityFramework
             InitializeComponent();
             LoadData();
         }
+        private void AdjustColumnWidth()
+        {
+            foreach (var column in dgvTest.Columns)
+            {
+                column.Width = new DataGridLength(0, DataGridLengthUnitType.Star);
+            }
+        }
 
         private void LoadData()
         {
@@ -28,9 +37,39 @@ namespace WpfEntityFramework
             {
                 var products = context.test.ToList();
                 dgvTest.ItemsSource = products;
-
+                //AdjustColumnWidth();
             }
         }
 
+        private void btnsubmit_Click(object sender, RoutedEventArgs e)
+        {
+            using (var context = new MyContext())
+            {
+                using (var transaction = context.Database.BeginTransaction())
+                {
+                    try
+                    {
+                        test test = new test
+                        {
+                            Name = txtname.Text,
+                            Quantity = int.Parse(txtquantity.Text),
+                            audit_user = Properties.Settings.Default.user_audit,
+                        };
+
+                        context.test.Add(test);
+                        context.SaveChanges();
+                        MessageBox.Show("Successfully Inserted");
+
+                        transaction.Commit();
+                        LoadData();
+                    }
+                    catch (Exception ex)
+                    {
+                        MessageBox.Show(ex.Message);
+                        transaction.Rollback();
+                    }
+                }
+            }
+        }
     }
 }

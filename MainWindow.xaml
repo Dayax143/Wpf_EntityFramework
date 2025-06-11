@@ -7,8 +7,28 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <DataGrid Name="dgvTest">
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <TextBox Name="txtname" Width="100" Height="20" HorizontalAlignment="Left" Grid.Row="0" Grid.Column="0"/>
+        <TextBox Name="txtquantity" Width="100" Height="20" HorizontalAlignment="Left" Grid.Row="0" Grid.Column="1"/>
+
+        <Button Name="btnsubmit" Content="Submit" Width="100" Height="30" Grid.Row="0" Grid.Column="2" Click="btnsubmit_Click"></Button>
+        <DataGrid Name="dgvTest" Margin="0,43,20,-135" Grid.RowSpan="3" Height="200" Grid.Column="0" Grid.ColumnSpan="4">
             
+            <DataGrid.Columns>
+                <DataGridCheckBoxColumn/>
+                <DataGridComboBoxColumn/>
+            </DataGrid.Columns>
         </DataGrid>
     </Grid>
 </Window>
