@@ -15,6 +15,6 @@ namespace WpfEntityFramework
             optionsBuilder.UseSqlServer(ConnectionString);
         }
 
-        public DbSet<test> test { get; set; }
+        public DbSet<Test> test { get; set; }
     }
 }

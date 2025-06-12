@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET9_0;NETCOREAPP
 F:\Software Development\HWA DEV\WpfEntityFramework\App.xaml
-11407045341
+3-445667831
 
-9-1147701281
+11-1368159348
 2311337173612
-MainWindow.xaml;
+MainWindow.xaml;manageDetails.xaml;testManage.xaml;
 
-False
+True
 

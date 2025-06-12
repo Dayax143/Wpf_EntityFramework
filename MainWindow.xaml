@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfEntityFramework"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="540" Width="1063">
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition/>
@@ -19,16 +19,37 @@
             <ColumnDefinition/>
             <ColumnDefinition/>
         </Grid.ColumnDefinitions>
-        <TextBox Name="txtname" Width="100" Height="20" HorizontalAlignment="Left" Grid.Row="0" Grid.Column="0"/>
-        <TextBox Name="txtquantity" Width="100" Height="20" HorizontalAlignment="Left" Grid.Row="0" Grid.Column="1"/>
+        <!-- Name Label & TextBox -->
+        <TextBlock Text="Product Name:" FontWeight="Bold" Margin="5" Grid.Row="0" Grid.Column="0"/>
+        <TextBox Name="txtname" Width="150" Height="25" Background="LightYellow" 
+             BorderBrush="DarkGray" Grid.Row="0" Grid.Column="0"/>
 
-        <Button Name="btnsubmit" Content="Submit" Width="100" Height="30" Grid.Row="0" Grid.Column="2" Click="btnsubmit_Click"></Button>
-        <DataGrid Name="dgvTest" Margin="0,43,20,-135" Grid.RowSpan="3" Height="200" Grid.Column="0" Grid.ColumnSpan="4">
-            
+        <!-- Quantity Label & TextBox -->
+        <TextBlock Text="Quantity:" FontWeight="Bold" Margin="5" Grid.Row="0" Grid.Column="1"/>
+        <TextBox Name="txtquantity" Width="150" Height="25" Background="LightCyan" 
+             BorderBrush="DarkGray" Grid.Row="0" Grid.Column="1"/>
+
+        <!-- Submit Button with Styling -->
+        <Button Name="btnsubmit" Content="Submit" Width="120" Height="35" 
+            FontWeight="Bold" Background="LightGreen" BorderBrush="DarkGreen"
+            Grid.Row="0" Grid.Column="2" Click="btnsubmit_Click"/>
+
+        <!-- Submit Button with Styling -->
+        <Button Name="btnLoad" Content="Refresh" Width="120" Height="35" 
+            FontWeight="Bold" Background="LightGreen" BorderBrush="DarkGreen"
+            Grid.Row="0" Grid.Column="2" Click="btnLoad_Click" Grid.ColumnSpan="2" Margin="224,47,188,49" />
+
+        <Button Name="btnProducts" Content="Products" Width="120" Height="35" 
+            FontWeight="Bold" Background="LightGreen" BorderBrush="DarkGreen"
+            Grid.Row="0" Grid.Column="3" Click="btnProducts_Click" Margin="97,47,49,49" />
+        <DataGrid Name="dgvTest" Grid.Row="1" Grid.RowSpan="3" Grid.Column="0" Grid.ColumnSpan="3" Margin="15,14,251,12">
+
             <DataGrid.Columns>
                 <DataGridCheckBoxColumn/>
                 <DataGridComboBoxColumn/>
             </DataGrid.Columns>
         </DataGrid>
+        <!-- Embed UserControl at Row 1, Column 1 -->
+       
     </Grid>
 </Window>

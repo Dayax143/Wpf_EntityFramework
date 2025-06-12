@@ -3,23 +3,39 @@
   "WorkspaceRootPath": "F:\\Software Development\\HWA DEV\\WpfEntityFramework\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BCE6AA7D-1F42-46D0-A26A-AC2AE813212F}|WpfEntityFramework.csproj|f:\\software development\\hwa dev\\wpfentityframework\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BCE6AA7D-1F42-46D0-A26A-AC2AE813212F}|WpfEntityFramework.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BCE6AA7D-1F42-46D0-A26A-AC2AE813212F}|WpfEntityFramework.csproj|f:\\software development\\hwa dev\\wpfentityframework\\managedetails.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{BCE6AA7D-1F42-46D0-A26A-AC2AE813212F}|WpfEntityFramework.csproj|solutionrelative:managedetails.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\pc\\AppData\\Local\\Temp\\.vsdbgsrc\\2243bdacaf91a49337e4f5e18dfa83e3f6fb65bbe701f33ad55c7595b188e682\\UIElement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BCE6AA7D-1F42-46D0-A26A-AC2AE813212F}|WpfEntityFramework.csproj|f:\\software development\\hwa dev\\wpfentityframework\\managedetails.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{BCE6AA7D-1F42-46D0-A26A-AC2AE813212F}|WpfEntityFramework.csproj|solutionrelative:managedetails.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCE6AA7D-1F42-46D0-A26A-AC2AE813212F}|WpfEntityFramework.csproj|f:\\software development\\hwa dev\\wpfentityframework\\testmanage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BCE6AA7D-1F42-46D0-A26A-AC2AE813212F}|WpfEntityFramework.csproj|solutionrelative:testmanage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCE6AA7D-1F42-46D0-A26A-AC2AE813212F}|WpfEntityFramework.csproj|f:\\software development\\hwa dev\\wpfentityframework\\testmanage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{BCE6AA7D-1F42-46D0-A26A-AC2AE813212F}|WpfEntityFramework.csproj|solutionrelative:testmanage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCE6AA7D-1F42-46D0-A26A-AC2AE813212F}|WpfEntityFramework.csproj|f:\\software development\\hwa dev\\wpfentityframework\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BCE6AA7D-1F42-46D0-A26A-AC2AE813212F}|WpfEntityFramework.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BCE6AA7D-1F42-46D0-A26A-AC2AE813212F}|WpfEntityFramework.csproj|f:\\software development\\hwa dev\\wpfentityframework\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{BCE6AA7D-1F42-46D0-A26A-AC2AE813212F}|WpfEntityFramework.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{BCE6AA7D-1F42-46D0-A26A-AC2AE813212F}|WpfEntityFramework.csproj|f:\\software development\\hwa dev\\wpfentityframework\\test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BCE6AA7D-1F42-46D0-A26A-AC2AE813212F}|WpfEntityFramework.csproj|solutionrelative:test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{BCE6AA7D-1F42-46D0-A26A-AC2AE813212F}|WpfEntityFramework.csproj|f:\\software development\\hwa dev\\wpfentityframework\\mycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BCE6AA7D-1F42-46D0-A26A-AC2AE813212F}|WpfEntityFramework.csproj|solutionrelative:mycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BCE6AA7D-1F42-46D0-A26A-AC2AE813212F}|WpfEntityFramework.csproj|f:\\software development\\hwa dev\\wpfentityframework\\test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BCE6AA7D-1F42-46D0-A26A-AC2AE813212F}|WpfEntityFramework.csproj|solutionrelative:test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\pc\\AppData\\Local\\Temp\\.vsdbgsrc\\2243bdacaf91a49337e4f5e18dfa83e3f6fb65bbe701f33ad55c7595b188e682\\UIElement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\pc\\AppData\\Local\\Temp\\.vsdbgsrc\\188987375a20f0f953c43b36df3589602447e4f3c19fc8570e1749cab0f8ee44\\XamlReader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -32,7 +48,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -41,6 +57,56 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "manageDetails.xaml.cs",
+              "DocumentMoniker": "F:\\Software Development\\HWA DEV\\WpfEntityFramework\\manageDetails.xaml.cs",
+              "RelativeDocumentMoniker": "manageDetails.xaml.cs",
+              "ToolTip": "F:\\Software Development\\HWA DEV\\WpfEntityFramework\\manageDetails.xaml.cs",
+              "RelativeToolTip": "manageDetails.xaml.cs",
+              "ViewState": "AgIAAOkAAAAAAAAAAAAswD4AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T06:24:56.86Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "manageDetails.xaml",
+              "DocumentMoniker": "F:\\Software Development\\HWA DEV\\WpfEntityFramework\\manageDetails.xaml",
+              "RelativeDocumentMoniker": "manageDetails.xaml",
+              "ToolTip": "F:\\Software Development\\HWA DEV\\WpfEntityFramework\\manageDetails.xaml",
+              "RelativeToolTip": "manageDetails.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-12T06:24:55.235Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "testManage.xaml.cs",
+              "DocumentMoniker": "F:\\Software Development\\HWA DEV\\WpfEntityFramework\\testManage.xaml.cs",
+              "RelativeDocumentMoniker": "testManage.xaml.cs",
+              "ToolTip": "F:\\Software Development\\HWA DEV\\WpfEntityFramework\\testManage.xaml.cs",
+              "RelativeToolTip": "testManage.xaml.cs",
+              "ViewState": "AgIAAH4AAAAAAAAAAAAqwKAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T04:55:45.785Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "testManage.xaml",
+              "DocumentMoniker": "F:\\Software Development\\HWA DEV\\WpfEntityFramework\\testManage.xaml",
+              "RelativeDocumentMoniker": "testManage.xaml",
+              "ToolTip": "F:\\Software Development\\HWA DEV\\WpfEntityFramework\\testManage.xaml",
+              "RelativeToolTip": "testManage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-12T04:41:44.525Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "UIElement.cs",
               "DocumentMoniker": "C:\\Users\\pc\\AppData\\Local\\Temp\\.vsdbgsrc\\2243bdacaf91a49337e4f5e18dfa83e3f6fb65bbe701f33ad55c7595b188e682\\UIElement.cs",
               "ToolTip": "C:\\Users\\pc\\AppData\\Local\\Temp\\.vsdbgsrc\\2243bdacaf91a49337e4f5e18dfa83e3f6fb65bbe701f33ad55c7595b188e682\\UIElement.cs [Read Only]",
@@ -51,7 +117,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
               "Title": "XamlReader.cs",
               "DocumentMoniker": "C:\\Users\\pc\\AppData\\Local\\Temp\\.vsdbgsrc\\188987375a20f0f953c43b36df3589602447e4f3c19fc8570e1749cab0f8ee44\\XamlReader.cs",
               "ToolTip": "C:\\Users\\pc\\AppData\\Local\\Temp\\.vsdbgsrc\\188987375a20f0f953c43b36df3589602447e4f3c19fc8570e1749cab0f8ee44\\XamlReader.cs [Read Only]",
@@ -62,32 +128,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "test.cs",
               "DocumentMoniker": "F:\\Software Development\\HWA DEV\\WpfEntityFramework\\test.cs",
               "RelativeDocumentMoniker": "test.cs",
               "ToolTip": "F:\\Software Development\\HWA DEV\\WpfEntityFramework\\test.cs",
               "RelativeToolTip": "test.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-11T07:00:02.223Z"
+              "WhenOpened": "2025-06-11T07:00:02.223Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "MyContext.cs",
               "DocumentMoniker": "F:\\Software Development\\HWA DEV\\WpfEntityFramework\\MyContext.cs",
               "RelativeDocumentMoniker": "MyContext.cs",
               "ToolTip": "F:\\Software Development\\HWA DEV\\WpfEntityFramework\\MyContext.cs",
               "RelativeToolTip": "MyContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-11T06:57:27.749Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "F:\\Software Development\\HWA DEV\\WpfEntityFramework\\MainWindow.xaml",
               "RelativeDocumentMoniker": "MainWindow.xaml",
@@ -99,13 +166,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "F:\\Software Development\\HWA DEV\\WpfEntityFramework\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "MainWindow.xaml.cs",
               "ToolTip": "F:\\Software Development\\HWA DEV\\WpfEntityFramework\\MainWindow.xaml.cs",
               "RelativeToolTip": "MainWindow.xaml.cs",
-              "ViewState": "AgIAACgAAAAAAAAAAAAQwD4AAAAqAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwBsAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-11T05:22:48.858Z",
               "EditorCaption": ""

@@ -1,15 +1,4 @@
-﻿using Microsoft.Data.SqlClient;
-using System.Text;
-using System.Text.Encodings.Web;
-using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
+﻿using System.Windows;
 
 namespace WpfEntityFramework
 {
@@ -23,15 +12,8 @@ namespace WpfEntityFramework
             InitializeComponent();
             LoadData();
         }
-        private void AdjustColumnWidth()
-        {
-            foreach (var column in dgvTest.Columns)
-            {
-                column.Width = new DataGridLength(0, DataGridLengthUnitType.Star);
-            }
-        }
 
-        private void LoadData()
+        public void LoadData()
         {
             using (var context = new MyContext())
             {
@@ -49,27 +31,51 @@ namespace WpfEntityFramework
                 {
                     try
                     {
-                        test test = new test
+                        Test test = new Test
                         {
                             Name = txtname.Text,
                             Quantity = int.Parse(txtquantity.Text),
                             audit_user = Properties.Settings.Default.user_audit,
                         };
 
+                        if (dgvTest.SelectedItem is Test selectedTest) // Ensure selected item matches model
+                        {
+                            var productToDelete = context.test.Find(selectedTest.id); // Find by ID
+
+                            if (productToDelete != null)
+                            {
+                                context.test.Remove(productToDelete);
+                            }
+                            else
+                            {
+                                transaction.Rollback();
+                            }
+                        }
                         context.test.Add(test);
                         context.SaveChanges();
-                        MessageBox.Show("Successfully Inserted");
 
                         transaction.Commit();
+                        MessageBox.Show("Successfully Inserted");
                         LoadData();
                     }
                     catch (Exception ex)
                     {
-                        MessageBox.Show(ex.Message);
                         transaction.Rollback();
+                        MessageBox.Show(ex.Message, "Transaction Canceled");
                     }
                 }
             }
+        }
+
+        private void btnLoad_Click(object sender, RoutedEventArgs e)
+        {
+            LoadData();
+        }
+
+        private void btnProducts_Click(object sender, RoutedEventArgs e)
+        {
+            manageDetails detail = new manageDetails();
+            detail.ShowDialog();
         }
     }
 }

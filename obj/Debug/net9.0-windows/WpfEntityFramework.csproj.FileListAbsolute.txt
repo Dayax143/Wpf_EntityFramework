@@ -63,3 +63,7 @@ F:\Software Development\HWA DEV\WpfEntityFramework\obj\Debug\net9.0-windows\WpfE
 F:\Software Development\HWA DEV\WpfEntityFramework\obj\Debug\net9.0-windows\ref\WpfEntityFramework.dll
 F:\Software Development\HWA DEV\WpfEntityFramework\bin\Debug\net9.0-windows\WpfEntityFramework.dll.config
 F:\Software Development\HWA DEV\WpfEntityFramework\obj\Debug\net9.0-windows\WpfEntityFramework.sourcelink.json
+F:\Software Development\HWA DEV\WpfEntityFramework\obj\Debug\net9.0-windows\testManage.baml
+F:\Software Development\HWA DEV\WpfEntityFramework\obj\Debug\net9.0-windows\testManage.g.cs
+F:\Software Development\HWA DEV\WpfEntityFramework\obj\Debug\net9.0-windows\manageDetails.baml
+F:\Software Development\HWA DEV\WpfEntityFramework\obj\Debug\net9.0-windows\manageDetails.g.cs

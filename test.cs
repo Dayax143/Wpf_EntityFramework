@@ -7,10 +7,10 @@ using System.Threading.Tasks;
 
 namespace WpfEntityFramework
 {
-    public class test
+    public class Test
     {
         [Key] // Primary key
-        public int id { get; set; }
+        public int? id { get; set; }
         public string? Name { get; set; }
         public int? Quantity { get; set; }
         public string? audit_user { get; set; }
